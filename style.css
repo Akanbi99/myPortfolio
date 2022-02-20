@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #6457A6;;
+    margin: 0 25px;
+    padding: 0;
+}
+
+body {
+    color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ /*nav styles*/
+nav {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+    background-color: #6457a6;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a { 
+    text-decoration: none;
+    color: #f3b198;
+    font-weight: 600;
+    text-align: center;
+}
+
+.active-section {
+    box-shadow: 0 5px 5px  #f3b198;
+}
+
+/* nav styles ends */
+
+
+/* section styles */
+
+section {
+    background-color: rgba(0,0,0, 0.08);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+/* about section styles */
+
+#about {
+    margin-top: 60px;
+}
+
+.about > div {
+    border-left: 2px solid  #fff;
+    margin: 15px;
+    padding-left: 17px ;
+}
+
+section div figure img  {
+    max-height: 7rem;
+    border-radius: 20px;
+    margin-left: 1.2rem ;
+}
+
+section article {
+    clear: left;
+}
+
+.about i {
+    margin-right: 7px;
+    color: #fff;
+}
+
+section article div div a:first-child { /*linkedin button*/
+    display: inline-block;
+    padding: 10px;
+    background-color: #1d72d3;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none
+}
+
+section article div div a:last-child { /*github button*/
+    display: inline-block;
+    padding: 10px;
+    background-color: #0b0c0e;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section article div > a { /* download reume button*/
+    display: inline-block;
+    padding: 10px;
+    background-color: #f3b198;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 15px 10px;
+} 
+
+
+section div div h1 {
+    width: 12rem;
+}
+
+h1 span {
+    color: #f3b198;
+}
+
+section article p {
+    line-height: 2;
+}
+
+
+/* Skills section */
+#skills {
+    text-align: center;
+}
+
+#skills button {
+
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: left;
+    color: #6457A6;
+}
+#skills button >div {
+    display: flex;
+    align-items: center;
+}
+
+#skills button p {
+    display: inline;
+    margin-left: 10px;
+} 
+
+/* icon colors */
+.fa-html5 {
+    color: #f06529;
+}
+
+.fa-css3 {
+    color: #ff8a27;
+}
+
+.fa-js-square {
+    color: #f0db4f;
+}
+
+.fa-github {
+    color: #0b0c0e;
+}
+
+ 
+details p {
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: left;
+}
+
+
+/* projects styles */
+#projects {
+    text-align: center;
+}
+
+#projects figure {
+    /* width: 200px; */
+    margin-top: 50px;
+}
+
+#projects figure img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#projects figure div  {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+#projects figure  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#projects figure  div a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #6457a6;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: small;
+}
+
+/* contact me section */
+#contacts a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #f3b198;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 450px) {
+
+    nav {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    nav {
+        width: 300px;
+    }
+}
