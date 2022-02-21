@@ -197,11 +197,8 @@ details p {
     background-color: #fff;
     border-radius: 0 0 20px 20px;
 }
-#projects figure > div {
-    color: #6457a6;
-} 
 
-#projects figure div div {
+#projects figure  div {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -226,15 +223,6 @@ details p {
     padding: 10px;
     border-radius: 20px;
     margin-right: 20px;
-}
-
-button {
-    cursor: pointer;
-    outline: none;
-}
-
-button:hover, a:hover {
-    filter: brightness(105%);
 }
 
 
