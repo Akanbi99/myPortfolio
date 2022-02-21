@@ -149,6 +149,8 @@ section article p {
     margin-left: 10px;
 } 
 
+
+
 /* icon colors */
 .fa-html5 {
     color: #f06529;
@@ -166,10 +168,9 @@ section article p {
     color: #0b0c0e;
 }
 
- 
 details p {
-    font-size: 1rem;
-    font-weight: lighter;
+    font-size: .8rem;
+    font-weight: bold;
     text-align: left;
 }
 
@@ -196,8 +197,11 @@ details p {
     background-color: #fff;
     border-radius: 0 0 20px 20px;
 }
+#projects figure > div {
+    color: #6457a6;
+} 
 
-#projects figure  div {
+#projects figure div div {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -222,6 +226,15 @@ details p {
     padding: 10px;
     border-radius: 20px;
     margin-right: 20px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover, a:hover {
+    filter: brightness(105%);
 }
 
 
